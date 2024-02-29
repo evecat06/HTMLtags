@@ -1,45 +1,244 @@
 <html>
- <head>
-        <title> title: HTML tags </title>
- </head>
- <body>
-    <div class = "TextFormatting">
-     <h1> h1 </h1>
-     <h2> h2 </h2>
-     <h3> h3 </h3>
-     <h4> h4 </h4>
-     <h5> h5 </h5>
-     <h6> h6 </h6>
-     <p> This is a paragraph<br>
-        <em>this is an emphasized text inside a paragraph.</em> <br>
-        <strong> this is a strong text inside a paragraph.</strong>
-     </p>
-    </div>
-    <div class = "Lists">
-        <ul> <h2>Hobbies</h2>
-        <li>Watching Movies</li>
-        <li>Playing Video Games
-            <ul>
-                <li>Genshin Impact</li>
-            <li>Call of Duty Mobile</li>
-            <li>Mobile Legends BB</li>
-            </ul>
-        </li>
-        <li>Reading Novels</li>
-        </ul>
 
-    </div>
+    <!DOCTYPE html>
+<html lang="en">
+
+
+<body>
+<header>
+    <br>
+    <h1>HTML TAGS</h1>
+</header>
+
+<section>
+    <h2>This is a Level 2 Heading</h2>
+    <h3>This is a Level 3 Heading</h3>
+    <h4>This is a Level 4 Heading</h4>
+    <h5>This is a Level 5 Heading</h5>
+    <h6>This is a Level 6 Heading</h6>
+</section>
 
 
 
+<section>
+            <h2>Different types of Text Formating</h2>
+    <p>
+        <em>This is an emphasized text inside a paragraph.</em><br>
+        <strong>This is a strong text inside a paragraph.</strong><br>
+        <b>This is a bold text inside a paragraph.</b><br>
+        <i>This is an intalic text inside a paragraph.</i><br>
+        <mark>This is a mark text inside a paragraph.</mark>    
+
+    </p>
+</section>
+
+<section>
+    <h2>Unordered List Tags</h2>
+    <ul>
+        <li>This is an Unordered List in HTML</li>
+        <li>This is an Unordered List in HTML</li>
+        <li>This is an Unordered List in HTML</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Ordered List Tags</h2>
+    <ol>
+        <li>This is an Ordered List in HTML</li>
+        <li>This is an Ordered List in HTML</li>
+        <li>This is an Ordered List in HTML</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Images Tags</h2>
+    <img src="img/cato.jpeg" width="300" height="300">
+</section>
+
+<section>
+    <h2>Video Tags</h2>
+    <video width="300" height="300" controls>
+        <source src="vid/lv_0_20240301031803.mp4">
+      </video>
+</section>
+
+<section>
+    <h2>Audio Tags</h2>
+    <audio controls>
+        <h2>Audio Tags</h2>
+        <source src="audio/AUDIS.mp3">
+      </audio>
+</section>
 
 
+<section>
+    <h2>Link Tags</h2>
+    <ull>
+        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Link tag with target</a></p>
+        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Link tag without target</a></p>
+    </ul>
+</section>
+
+<section>
+    <h2>Table Tags</h2>
+    <table border="1px">
+        <tr align="center">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>FEBRUARY</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr align="center">
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr align="center">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr align="center">
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+        </tr>
+        <tr align="center">
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+        </tr>
+        <tr align="center">
+            <th>18</th>
+            <th>19</th>
+            <th>20</th>
+            <th>21</th>
+            <th>22</th>
+            <th>23</th>
+            <th>24</th>
+        </tr>
+        <tr align="center">
+            <th>25</th>
+            <th>26</th>
+            <th>27</th>
+            <th>28</th>
+            <th>29</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <form>
+        <label><b>Name</b></label>
+        <input type="text" required placeholder="Enter your name">
+
+        <br>
+        <label><b>Gmail</b></label>
+        <input type="password" required placeholder="Enter your gmail">
+
+        <br><br>
+        <label>I am an: </label>
+        <select>
+            <option>single</option>
+            <option>maried</option>
+            <option>kabit</option>
+            <option>rebound</option>
+        </select>
+        <br>
+        <br>
+        <input type="radio" name="gender">
+        <label>Female</label>
+        <input type="radio" name="gender">
+        <label>Male</label>
+        <input type="radio" name="gender">
+        <label>Others</label>
+        <br>
+        
+        <br>
+        <label>Feedback:</label>
+        <br>
+        <textarea rows="3" cols="50"></textarea>
+        <br>
+        <input type="submit"><input type="reset">
+
+        <br><br>
+        <input type="checkbox">
+        <label>I understand that my credentials is protected</label>
+        <br>
+    </form>
+</section>
 
 
+<footer>
+    <p></p>
+</footer>
 
+</body>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSERTO ACT 2 </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #722a2a;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        section {
+            padding: 25px;
+            border: 3px solid #151414;
+            margin: 50px;
+            text-align: center;
+        }   
+        ul, ol {
+            display: inline-block;
+            text-align: left;
 
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        table {
+      margin: 0 auto;
+        }
+        
+    </style>
+</head>
 
-
+</html>
  </body>
 </html>
